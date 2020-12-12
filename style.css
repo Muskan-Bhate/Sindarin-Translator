@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --primary-color: #EC4899;
+    --width-break: 600px;
+}
+
+body {
+  
+    background-image: url("/images/sindarintranslate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+}
+
+/** nav **/
+.navigation .nav-heading {
+    font-family:  'Lobster', cursive;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+/**input-area**/
+
+#txt-input {
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 0.5rem;
+    min-height: 18vh;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+/**button**/
+
+#btn-translate {
+    font-family: 'Lobster', cursive;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+
+    margin: auto;
+    padding: 4rem;
+    max-width: var(--width-break);
+}
+
+/**Output-area**/
+
+#txt-output {
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 18vh;
+    max-height: 20vh;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 1.4rem;
+    overflow: scroll;
+
+}
+
+/** footer **/
+
+.footer {
+    font-family: 'Caveat', cursive;
+    margin:auto;
+    background-color: var(--primary-color);
+    padding: 0.3rem 0rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer-heading {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer .footer-txt {
+    margin: auto;
+    max-width: var(--width-break);
+    font-size: 1.5rem;
+}
